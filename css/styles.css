@@ -1,0 +1,97 @@
+:root {
+    --secondary-text-color: #757575;
+    --background-color: #ffffff;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-background-color:#E5E5E5;
+    --section-background-color: rgba(47, 48, 58, 0.8);
+    --team-section-background: #F5F4FA;
+    --footer-color: #2F303A;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --footer-copyright-color: rgba(255, 255, 255, 0.4)
+}
+
+/* цвет основного текста #212121; */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* синий акцент #2196F3 */
+/* background: #E5E5E5 */
+body {
+    background-color: var(--background-color);
+    color: var(--title-text-color);
+}
+
+.logo-item {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+/* Навигация по сайту */
+.site-nav-list a {
+    color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+.auth-nav a {
+    color: var(--secondary-text-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color: var(--accent-color);
+}
+/* Hero */
+.text-title {
+    color: var(--background-color);
+}
+.text {
+    background-color: var(--section-background-color);
+}
+/* Секция преимущества */
+.features-list p {
+    color: var(--secondary-text-color);
+}
+.option-list p {
+    background-color: var(--section-background-color);
+    color: var(--background-color);
+}
+/* Секция команды */
+
+.team-section-list li {
+    background-color: var(--background-color);
+}
+
+.team-section {
+    background-color: var(--team-section-background);
+}
+.team-section p {
+    color: var(--secondary-text-color);
+}
+.footer {
+    background-color: var(--footer-color)
+}
+.logo-item {
+    color: var(--accent-color);
+}
+.studio-item {
+    color: var(--background-color);
+}
+.content {
+    color: var(--background-color);
+}
+.contacts a {
+    color: var(--footer-contacts-color);
+}
+
+.socials {
+    color: var(--background-color);
+}
+.form {
+    color: var(--background-color);
+}
+.copy {
+    color: var(--footer-copyright-color);
+}
