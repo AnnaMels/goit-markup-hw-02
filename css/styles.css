@@ -95,3 +95,32 @@ body {
 .copy {
     color: var(--footer-copyright-color);
 }
+
+.list {
+    background-color: var(--team-section-background);
+}
+body {
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+}
+
+.list a:hover,
+.list a:focus {
+    color: var(--accent-color);
+}
+
+.page-header {
+    background-color: var(--background-color);
+}
+
+.site-nav a{
+    color: var(--title-text-color);
+}
+
+.list-item a {
+    color: var(--title-text-color);
+}
+
+.list-item-portfolio p {
+color: var(--secondary-text-color);
+}
