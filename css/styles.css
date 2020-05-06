@@ -21,6 +21,10 @@ body {
     color: var(--title-text-color);
 }
 
+.page-header {
+    background-color: var(--background-color);
+}
+
 .logo-item {
     color: var(--accent-color);
 }
@@ -52,8 +56,13 @@ body {
 }
 /* Секция преимущества */
 .features-list p {
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-color)
 }
+
+.features-list {
+    background-color: var(--background-color);
+}
+
 .option-list p {
     background-color: var(--section-background-color);
     color: var(--background-color);
@@ -98,10 +107,6 @@ body {
 
 .list {
     background-color: var(--team-section-background);
-}
-body {
-    background-color: var(--secondary-background-color);
-    color: var(--title-text-color);
 }
 
 .list a:hover,
