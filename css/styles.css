@@ -41,16 +41,26 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 /* Навигация по сайту */
 .site-nav-list a {
     color: var(--title-text-color);
 }
 
+.site-nav-item {
+    text-decoration: none;
+}
+
+.auth-nav-item {
+    text-decoration: none;
+}
+
 .site-nav,
 .auth-nav {
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    list-style: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -97,11 +107,16 @@ body {
 
 .features-list {
     background-color: var(--background-color);
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
+    list-style: none;
 }
 
 .option-section h2 {
     font-size: 36px;
+}
+
+.option-list {
+    list-style: none;
 }
 
 .option-list p {
@@ -113,6 +128,10 @@ body {
     letter-spacing: 0.03em
 }
 /* Секция команды */
+
+.team-section-list {
+    list-style: none;
+}
 
 .team-section-list li {
     background-color: var(--background-color);
@@ -141,6 +160,10 @@ body {
     font-size: 36px;
 }
 
+.clients-list {
+    list-style: none;
+}
+
 .footer {
     background-color: var(--footer-color);
     letter-spacing: 0.03em;
@@ -162,6 +185,11 @@ body {
 .content {
     color: var(--background-color);
 }
+
+.contacts {
+    list-style: none;
+}
+
 .contacts a {
     color: var(--footer-contacts-color);
 }
@@ -201,12 +229,16 @@ body {
 
 .list-item {
     color: var(--title-text-color);
+    list-style: none;
 }
 
 .list-item-portfolio p {
 color: var(--secondary-text-color);
 }
 
+.list-item-portfolio {
+    list-style: none;
+}
 /* Buttons */
 
 .list button {
