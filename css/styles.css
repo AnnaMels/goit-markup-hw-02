@@ -177,6 +177,7 @@ body {
   height: 26px;
   cursor: pointer;
   letter-spacing: 0.03em;
+  font-family: Roboto;
 }
 
 .filter-btn:hover,
